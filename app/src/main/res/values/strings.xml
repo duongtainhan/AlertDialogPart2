@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AlertDialogPart2</string>
+    <string name="input_item">Enter the subject name </string>
 </resources>
