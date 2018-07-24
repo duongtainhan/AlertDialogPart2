@@ -19,5 +19,19 @@ public class MainActivity extends AppCompatActivity {
         //Anh xa
         lvName = findViewById(R.id.lvName);
         arrayName = new ArrayList<>();
+        AddArrayName();
+        //
+        adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayName);
+        lvName.setAdapter(adapter);
+    }
+
+    private void AddArrayName(){
+        arrayName.add("Android");
+        arrayName.add("IOS");
+        arrayName.add("PHP");
+        arrayName.add("ASP.NET");
+        arrayName.add("UNITY 3D");
+        arrayName.add("COCOS2DX");
+        arrayName.add("NODEJS");
     }
 }
